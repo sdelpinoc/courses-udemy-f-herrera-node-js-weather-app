@@ -6,7 +6,6 @@ export default class Mapbox {
 
     get params() {
         return {
-            // 'access_token': 'pk.eyJ1Ijoic2RlbHBpbm9jIiwiYSI6ImNsNXF6ZWwybDFpaGczY21ud2VubTZhMzQifQ.bpNJNnidnE9l-otH638SfA',
             'access_token': process.env.MAPBOX_KEY,
             'limit': 5,
             'proximity': 'ip',

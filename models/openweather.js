@@ -3,7 +3,6 @@ import Axios from 'axios';
 export default class OpenWeather {
 
     baseUrl = 'https://api.openweathermap.org/data/2.5/weather?';
-    // lat=-70.66667&lon=40.740121&appid=909e50ff88e5288c0ea873509714ef6a&units=metric&lang=es
 
     get params() {
         return {
